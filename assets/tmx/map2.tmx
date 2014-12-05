@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="images" tilewidth="32" tileheight="32">
+  <image source="tmx/images.png" width="225" height="225"/>
+ </tileset>
+ <tileset firstgid="50" name="map_tiles_1_5" tilewidth="32" tileheight="32">
+  <image source="tmx/map_tiles_1_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="178" name="map_tiles_2_1" tilewidth="32" tileheight="32">
+  <image source="tmx/map_tiles_2_1.png" width="512" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Suw3AIAwAUReU3iALsf9EaVwgBCgJEB+SixPQoMcniUg6qGyVa29T7WuNlE7xtd6aUO2h+Wa6LG9H+Hx8ahF92pk/3XNlI9tbI933x/tqJ5Lv6/2tPNcuH/3+dvtmIvzbKKJ2A257hkNgDgAA
+  </data>
+ </layer>
+</map>

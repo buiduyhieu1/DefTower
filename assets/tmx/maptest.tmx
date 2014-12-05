@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_tiles_1_5" tilewidth="32" tileheight="32">
+  <image source="tmx/map_tiles_1_5.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="129" name="images" tilewidth="32" tileheight="32">
+  <image source="tmx/images.png" width="225" height="225"/>
+ </tileset>
+ <tileset firstgid="178" name="vatcan" tilewidth="32" tileheight="32">
+  <image source="tmx/vatcan.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="vatcan" value="vatcan"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Map1" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2thYGBoGcWDCq8eBG4YSng0vEbxKMbEAM987WDcBQAA
+  </data>
+ </layer>
+ <layer name="khung" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC7NkYGCwAuJUIHamIgaZZwk12xOIvYCYD4jDqYj50MyG4RYqYmRzY4FYEireTCUMs0cSan4smv26FGJ0/6DbgUsdsRibfmqaj8ucWCz+LKIQo4e3Ip38QY/4oFe6Qs8f6OpwpX9ceQo9f9Ajn8PKLVLLq0wgzsJDI5sNK7dMGUgrVyuBuAoPbYpkNgCu0HFk3AUAAA==
+  </data>
+ </layer>
+ <layer name="vatcan" width="25" height="15" visible="0">
+  <properties>
+   <property name="vatcan" value="vatcan"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9vEwMCwaZhhagFam4/LHmLcQE5YYBOn1E+49G8iIE8Ne9D9Q42wIiROK3/gk6fUfHQ7kNVRO13RI3/QK58PdQwAACJjotwFAAA=
+  </data>
+ </layer>
+ <layer name="vatcan1" width="25" height="15" visible="0">
+  <properties>
+   <property name="vatcan1" value="vatcan1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9vEwMCwaRQPWkwpINZ8St1HK/PxmUOKP8kJb3r5g57xQa90NYoHHgMAwFzZadwFAAA=
+  </data>
+ </layer>
+</map>
